@@ -1,0 +1,28 @@
+.nav {
+    list-style: none;
+    display: flex;
+    height: 7vh;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin-bottom: 30px;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.button {
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.nav div {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+}
+
+.nav div li {
+    margin: 0 25px 0 25px;
+}
